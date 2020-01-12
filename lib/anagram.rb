@@ -1,7 +1,7 @@
 # Your code goes here!
 class Anagram
   attr_accessor :keyword
-  def initialize
+  def initialize(keyword)
     @keyword = keyword
   end
   
