@@ -12,11 +12,8 @@ class Anagram
     
     w = @keyword.split.sort 
     z = word.split.sort
-      match_list << word
-      
-    end
+    binding.pry
     }
-    match_list
   end
 end
     
