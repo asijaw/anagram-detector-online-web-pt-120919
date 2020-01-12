@@ -6,7 +6,7 @@ class Anagram
   end
   
   def match(word_list)
-    match_list
+    match_list = []
     word_list.each {|word| 
     if @keyword === word.split.sort
       match_list << word
