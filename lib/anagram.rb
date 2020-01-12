@@ -9,6 +9,7 @@ class Anagram
     word_list.each {|word| 
     if @keyword === word.split.sort
       word
+    end
     }
   end
 end
