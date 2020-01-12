@@ -10,7 +10,7 @@ class Anagram
     match_list = []
     word_list.each {|word| 
     
-    w = @keyword.split.sort 
+    w = @keyword.split
     z = word.split.sort
     binding.pry
     }
