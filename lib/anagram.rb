@@ -1,4 +1,5 @@
 # Your code goes here!
+require 'pry'
 class Anagram
   attr_accessor :keyword
   def initialize(keyword)
@@ -10,6 +11,7 @@ class Anagram
     word_list.each {|word| 
     if @keyword.split.sort == word.split.sort
       match_list << word
+      binding.pry
     end
     }
     match_list
