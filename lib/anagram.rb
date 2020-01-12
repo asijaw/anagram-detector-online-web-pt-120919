@@ -9,9 +9,10 @@ class Anagram
     match_list
     word_list.each {|word| 
     if @keyword === word.split.sort
-      word
+      match_list << word
     end
     }
+    match_list
   end
 end
     
