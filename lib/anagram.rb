@@ -12,7 +12,7 @@ class Anagram
     if @keyword.split.sort == word.split.sort
       binding.pry
       match_list << word
-      binding.pry
+      #binding.pry
     end
     }
     match_list
