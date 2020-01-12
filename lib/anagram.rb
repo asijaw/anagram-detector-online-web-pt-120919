@@ -11,7 +11,7 @@ class Anagram
     word_list.each {|word| 
     
     w = @keyword.split
-    z = word.split.sort
+    z = word.split
     binding.pry
     }
   end
