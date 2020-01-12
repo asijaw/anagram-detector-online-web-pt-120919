@@ -10,6 +10,7 @@ class Anagram
     match_list = []
     word_list.each {|word| 
     if @keyword.split.sort == word.split.sort
+      binding.pry
       match_list << word
       binding.pry
     end
